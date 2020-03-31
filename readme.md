@@ -1,6 +1,6 @@
 # COVID Pause (Firefox Port)
-ported from Kyle McDonalds' chrome version: [kylemcdonald/COVIDPause](https://github.com/kylemcdonald/COVIDPause/)
 ![nytimes.com](images/covidpause.gif)
+Ported from Kyle McDonald's original Chrome version: [kylemcdonald/COVIDPause](https://github.com/kylemcdonald/COVIDPause/)
 
 This extension removes content from websites that contain the following keywords:
 
@@ -15,11 +15,13 @@ Some special cases are handled on some of the most popular English-language webs
 
 ## Install
 
-1. Download [this file](https://github.com/dpkn/COVIDPause/archive/master.zip) and unzip.
-2. Go to `about:addons`, or from the menu bar select "Tools > Add-ons".
+1. Download [this file](https://github.com/dpkn/COVIDPause/raw/master/web-ext-artifacts/covid_pause-1.0-an%2Bfx.xpi).
+2. In your browser, go to `about:addons`, or from the menu bar select "Tools > Add-ons".
 3. At the top right, click the settings icon and navigate to "Install Add-On from File..."
-4. Click the "Load Unpacked" button at the top left.
-5. Select the unzipped folder.
+5. Select the downloaded .xpi file
+6. Grant permission!
+
+Or, built it yourself from this repository using [mozilla/web-ext](https://github.com/mozilla/web-ext)
 
 ## Usage
 
