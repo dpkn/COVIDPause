@@ -110,13 +110,13 @@ function teardown() {
     }
 }
 
-chrome.storage.local.get(['enabled'], result => {
+browser.storage.local.get(['enabled'], result => {
     if (result.enabled) {
         setup();
     }
 })
 
-chrome.storage.onChanged.addListener(storage => {
+browser.storage.onChanged.addListener(storage => {
     let enabled = storage.enabled.newValue;
     if (enabled) {
         setup();
