@@ -1,6 +1,6 @@
 # COVID Pause (Firefox Port)
 ![nytimes.com](images/covidpause.gif)
-Ported from Kyle McDonalds' original Chrome version: [kylemcdonald/COVIDPause](https://github.com/kylemcdonald/COVIDPause/)
+Ported from Kyle McDonald's original Chrome version: [kylemcdonald/COVIDPause](https://github.com/kylemcdonald/COVIDPause/)
 
 This extension removes content from websites that contain the following keywords:
 
