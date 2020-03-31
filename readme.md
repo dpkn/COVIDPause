@@ -1,5 +1,5 @@
-# COVID Pause
-
+# COVID Pause (Firefox Port)
+ported from Kyle McDonalds' chrome version: [kylemcdonald/COVIDPause](https://github.com/kylemcdonald/COVIDPause/)
 ![nytimes.com](images/covidpause.gif)
 
 This extension removes content from websites that contain the following keywords:
@@ -15,9 +15,9 @@ Some special cases are handled on some of the most popular English-language webs
 
 ## Install
 
-1. Download [this file](https://github.com/kylemcdonald/COVIDPause/archive/master.zip) and unzip.
-2. Go to `chrome://extensions/`, or from the menu bar select "Window > Extensions".
-3. At the top right, click "Developer mode" to enable unpacked extensions.
+1. Download [this file](https://github.com/dpkn/COVIDPause/archive/master.zip) and unzip.
+2. Go to `about:addons`, or from the menu bar select "Tools > Add-ons".
+3. At the top right, click the settings icon and navigate to "Install Add-On from File..."
 4. Click the "Load Unpacked" button at the top left.
 5. Select the unzipped folder.
 
